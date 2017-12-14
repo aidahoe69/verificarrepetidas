@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="STORETICModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="MT_ARTICULOSLINCAMPOSLIBRES">
+    <Key>
+      <PropertyRef Name="CODARTICULO" />
+      <PropertyRef Name="TALLA" />
+      <PropertyRef Name="COLOR" />
+    </Key>
+    <Property Name="CODARTICULO" Type="Int32" Nullable="false" />
+    <Property Name="TALLA" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="COLOR" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FOTO" Type="String" MaxLength="512" FixedLength="true" Unicode="true" />
+    <Property Name="FOTO2" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO3" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO4" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO5" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO6" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO7" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO8" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO9" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO10" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_DISPONIBILIDAD" Type="DateTime" Precision="0" />
+    <Property Name="SKU_AMAZON" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="SKU_AMAZON_FBA_EUROPE" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="SKU_AMAZON_FBA_USA" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_ITEMNAME_PROPOSED" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_BRAND_PROPOSED" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_PARTNUMBER_PROPOSED" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="TIEMPO_BAJO_PEDIDO" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_MODIFICADO" Type="DateTime" Precision="7" />
+    <Property Name="FOTO11" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO12" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO13" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO14" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO15" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO16" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO17" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO18" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO19" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO20" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="EAN_FALSO" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_ES_A1_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_ES_A2_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_FR_A1_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_FR_A2_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_IT_A1_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_IT_A2_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_DE_A1_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_DE_A2_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_UK_A1_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AMAZON_UK_A2_ASIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO2" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO3" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO4" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO5" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO6" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO7" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO8" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO9" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="MD5_FOTO10" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="TALLA_EN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TALLA_FR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TALLA_IT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TALLA_DE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TALLA_NL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TALLA_PT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="COLOR_EN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="COLOR_FR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="COLOR_IT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="COLOR_DE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="COLOR_NL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="COLOR_PT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TALLA_ES" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="COLOR_ES" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="STORETICEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MT_ARTICULOSLINCAMPOSLIBRES" EntityType="Self.MT_ARTICULOSLINCAMPOSLIBRES" />
+    <EntitySet Name="MT_DICCIONARIO_MD5" EntityType="STORETICModel.MT_DICCIONARIO_MD5" />
+  </EntityContainer>
+  <EntityType Name="MT_DICCIONARIO_MD5">
+    <Key>
+      <PropertyRef Name="indici" />
+    </Key>
+    <Property Name="indici" Type="Int32" Nullable="false" />
+    <Property Name="MD5" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

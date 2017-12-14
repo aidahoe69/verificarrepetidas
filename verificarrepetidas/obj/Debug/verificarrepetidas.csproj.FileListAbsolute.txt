@@ -1,0 +1,10 @@
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\bin\Debug\verificarrepetidas.exe.config
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\obj\Debug\verificarrepetidas.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\bin\Debug\verificarrepetidas.exe
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\bin\Debug\verificarrepetidas.pdb
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\bin\Debug\EntityFramework.dll
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\bin\Debug\EntityFramework.xml
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\obj\Debug\verificarrepetidas.exe
+C:\Users\Javier\Google Drive\StoreTIC\informática\PROGRAMAS HECHOS\verificarrepetidas\verificarrepetidas\obj\Debug\verificarrepetidas.pdb
