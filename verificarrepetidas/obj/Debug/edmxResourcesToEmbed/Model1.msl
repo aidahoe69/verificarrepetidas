@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="STORETICModelStoreContainer" CdmEntityContainer="STORETICEntities">
+    <EntitySetMapping Name="MT_ARTICULOSLINCAMPOSLIBRES">
+      <EntityTypeMapping TypeName="STORETICModel.MT_ARTICULOSLINCAMPOSLIBRES">
+        <MappingFragment StoreEntitySet="MT_ARTICULOSLINCAMPOSLIBRES">
+          <ScalarProperty Name="CODARTICULO" ColumnName="CODARTICULO" />
+          <ScalarProperty Name="TALLA" ColumnName="TALLA" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+          <ScalarProperty Name="FOTO2" ColumnName="FOTO2" />
+          <ScalarProperty Name="FOTO3" ColumnName="FOTO3" />
+          <ScalarProperty Name="FOTO4" ColumnName="FOTO4" />
+          <ScalarProperty Name="FOTO5" ColumnName="FOTO5" />
+          <ScalarProperty Name="FOTO6" ColumnName="FOTO6" />
+          <ScalarProperty Name="FOTO7" ColumnName="FOTO7" />
+          <ScalarProperty Name="FOTO8" ColumnName="FOTO8" />
+          <ScalarProperty Name="FOTO9" ColumnName="FOTO9" />
+          <ScalarProperty Name="FOTO10" ColumnName="FOTO10" />
+          <ScalarProperty Name="FECHA_DISPONIBILIDAD" ColumnName="FECHA_DISPONIBILIDAD" />
+          <ScalarProperty Name="SKU_AMAZON" ColumnName="SKU_AMAZON" />
+          <ScalarProperty Name="SKU_AMAZON_FBA_EUROPE" ColumnName="SKU_AMAZON_FBA_EUROPE" />
+          <ScalarProperty Name="SKU_AMAZON_FBA_USA" ColumnName="SKU_AMAZON_FBA_USA" />
+          <ScalarProperty Name="AMAZON_ITEMNAME_PROPOSED" ColumnName="AMAZON_ITEMNAME_PROPOSED" />
+          <ScalarProperty Name="AMAZON_BRAND_PROPOSED" ColumnName="AMAZON_BRAND_PROPOSED" />
+          <ScalarProperty Name="AMAZON_PARTNUMBER_PROPOSED" ColumnName="AMAZON_PARTNUMBER_PROPOSED" />
+          <ScalarProperty Name="TIEMPO_BAJO_PEDIDO" ColumnName="TIEMPO_BAJO_PEDIDO" />
+          <ScalarProperty Name="FECHA_MODIFICADO" ColumnName="FECHA_MODIFICADO" />
+          <ScalarProperty Name="FOTO11" ColumnName="FOTO11" />
+          <ScalarProperty Name="FOTO12" ColumnName="FOTO12" />
+          <ScalarProperty Name="FOTO13" ColumnName="FOTO13" />
+          <ScalarProperty Name="FOTO14" ColumnName="FOTO14" />
+          <ScalarProperty Name="FOTO15" ColumnName="FOTO15" />
+          <ScalarProperty Name="FOTO16" ColumnName="FOTO16" />
+          <ScalarProperty Name="FOTO17" ColumnName="FOTO17" />
+          <ScalarProperty Name="FOTO18" ColumnName="FOTO18" />
+          <ScalarProperty Name="FOTO19" ColumnName="FOTO19" />
+          <ScalarProperty Name="FOTO20" ColumnName="FOTO20" />
+          <ScalarProperty Name="EAN_FALSO" ColumnName="EAN_FALSO" />
+          <ScalarProperty Name="MD5_FOTO" ColumnName="MD5_FOTO" />
+          <ScalarProperty Name="AMAZON_ES_A1_ASIN" ColumnName="AMAZON_ES_A1_ASIN" />
+          <ScalarProperty Name="AMAZON_ES_A2_ASIN" ColumnName="AMAZON_ES_A2_ASIN" />
+          <ScalarProperty Name="AMAZON_FR_A1_ASIN" ColumnName="AMAZON_FR_A1_ASIN" />
+          <ScalarProperty Name="AMAZON_FR_A2_ASIN" ColumnName="AMAZON_FR_A2_ASIN" />
+          <ScalarProperty Name="AMAZON_IT_A1_ASIN" ColumnName="AMAZON_IT_A1_ASIN" />
+          <ScalarProperty Name="AMAZON_IT_A2_ASIN" ColumnName="AMAZON_IT_A2_ASIN" />
+          <ScalarProperty Name="AMAZON_DE_A1_ASIN" ColumnName="AMAZON_DE_A1_ASIN" />
+          <ScalarProperty Name="AMAZON_DE_A2_ASIN" ColumnName="AMAZON_DE_A2_ASIN" />
+          <ScalarProperty Name="AMAZON_UK_A1_ASIN" ColumnName="AMAZON_UK_A1_ASIN" />
+          <ScalarProperty Name="AMAZON_UK_A2_ASIN" ColumnName="AMAZON_UK_A2_ASIN" />
+          <ScalarProperty Name="MD5_FOTO2" ColumnName="MD5_FOTO2" />
+          <ScalarProperty Name="MD5_FOTO3" ColumnName="MD5_FOTO3" />
+          <ScalarProperty Name="MD5_FOTO4" ColumnName="MD5_FOTO4" />
+          <ScalarProperty Name="MD5_FOTO5" ColumnName="MD5_FOTO5" />
+          <ScalarProperty Name="MD5_FOTO6" ColumnName="MD5_FOTO6" />
+          <ScalarProperty Name="MD5_FOTO7" ColumnName="MD5_FOTO7" />
+          <ScalarProperty Name="MD5_FOTO8" ColumnName="MD5_FOTO8" />
+          <ScalarProperty Name="MD5_FOTO9" ColumnName="MD5_FOTO9" />
+          <ScalarProperty Name="MD5_FOTO10" ColumnName="MD5_FOTO10" />
+          <ScalarProperty Name="TALLA_EN" ColumnName="TALLA_EN" />
+          <ScalarProperty Name="TALLA_FR" ColumnName="TALLA_FR" />
+          <ScalarProperty Name="TALLA_IT" ColumnName="TALLA_IT" />
+          <ScalarProperty Name="TALLA_DE" ColumnName="TALLA_DE" />
+          <ScalarProperty Name="TALLA_NL" ColumnName="TALLA_NL" />
+          <ScalarProperty Name="TALLA_PT" ColumnName="TALLA_PT" />
+          <ScalarProperty Name="COLOR_EN" ColumnName="COLOR_EN" />
+          <ScalarProperty Name="COLOR_FR" ColumnName="COLOR_FR" />
+          <ScalarProperty Name="COLOR_IT" ColumnName="COLOR_IT" />
+          <ScalarProperty Name="COLOR_DE" ColumnName="COLOR_DE" />
+          <ScalarProperty Name="COLOR_NL" ColumnName="COLOR_NL" />
+          <ScalarProperty Name="COLOR_PT" ColumnName="COLOR_PT" />
+          <ScalarProperty Name="TALLA_ES" ColumnName="TALLA_ES" />
+          <ScalarProperty Name="COLOR_ES" ColumnName="COLOR_ES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MT_DICCIONARIO_MD5">
+      <EntityTypeMapping TypeName="STORETICModel.MT_DICCIONARIO_MD5">
+        <MappingFragment StoreEntitySet="MT_DICCIONARIO_MD5">
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+          <ScalarProperty Name="MD5" ColumnName="MD5" />
+          <ScalarProperty Name="indici" ColumnName="indici" />
+        </MappingFragment>
+        <MappingFragment StoreEntitySet="MT_ARTICULOSLINCAMPOSLIBRES">
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
